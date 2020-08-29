@@ -1,0 +1,22 @@
+{
+    "name": "grove button test",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "pxt-grove-zero-for-microbit": "github:seeed-studio/pxt-grove-zero-for-microbit#1.0.4",
+        "Grove": "github:seeed-studio/pxt-grove#v0.1.7"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "blocksprj"
+}
