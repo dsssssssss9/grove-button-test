@@ -1,3 +1,12 @@
+input.onPinPressed(TouchPin.P2, function () {
+    sstate = !(sstate)
+})
+let sstate = false
+sstate = false
 basic.forever(function () {
-    pins.digitalWritePin(DigitalPin.P0, pins.digitalReadPin(DigitalPin.P2))
+    if (sstate == true) {
+        pins.digitalWritePin(DigitalPin.P0, 1)
+    } else {
+        pins.digitalWritePin(DigitalPin.P0, 0)
+    }
 })
